@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+.header-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.header-parent a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.header-parent a:hover {
+  color: red;
+}
+.header-parent button {
+  color: red;
+  border: 1px solid red;
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 12px;
+}
+.header-parent button:hover {
+  background-color: red;
+  color: white;
+}
+
+.section-parent1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.hero button {
+  color: red;
+  border: 1px solid red;
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 5px;
+}
+.hero-left button:hover {
+  background-color: red;
+  color: white;
+}
+
+.hero {
+  background-image: url("./image\ 4\ \(1\).png");
+  height: 530px;
+  background-size: cover;
+}
+.hero-parent {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.container h2 {
+  text-align: center;
+  font-size: 50px;
+}
+.xizmatlar-parent {
+  display: flex;
+  justify-content: space-between;
+}
+.terapiya {
+  display: flex;
+  justify-content: space-between;
+}
+.container3 {
+  padding: 50px 0;
+  background-color: aqua;
+}
+.container3 h5 {
+  margin: 10px;
+  text-align: center;
+  font-size: 100px;
+}
+.section3-right {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  height: 30px;
+}
+form {
+  width: 600px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 20px;
+}
+
+input {
+  padding: 20px 30px;
+}
+
+form button {
+  padding: 15px;
+  background-color: green;
+}
+
+.contact-parent {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+
+footer {
+  background-color: black;
+}
+.footer-right a:hover {
+  color: red;
+}
+.container11 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.footer-right {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-right a {
+  text-decoration: none;
+  color: white;
+}
